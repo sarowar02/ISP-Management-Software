@@ -8,6 +8,7 @@ public class UserResponseDTO {
     private String phone;
     private String mikrotikUsername;
     private String packageName;
+    private String status;
 
     public UserResponseDTO(User user) {
         this.id = user.getId();
@@ -15,6 +16,7 @@ public class UserResponseDTO {
         this.phone = user.getPhone();
         this.mikrotikUsername = user.getMikrotikUsername();
         this.packageName = user.getUserPackage().getName();
+        this.status = user.getStatus();
     }
 
     public Long getId() { return id; }
@@ -22,4 +24,5 @@ public class UserResponseDTO {
     public String getPhone() { return phone; }
     public String getMikrotikUsername() { return mikrotikUsername; }
     public String getPackageName() { return packageName; }
+    public String getStatus() { return status; }
 }

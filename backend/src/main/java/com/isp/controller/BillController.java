@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/bills")
 public class BillController {
@@ -55,5 +56,11 @@ public class BillController {
     public String disableUnpaidUsers() throws Exception {
         userService.disableUnpaidUsers();
         return "Unpaid users disabled successfully";
+    }
+
+    @GetMapping("/search")
+    public ApiResponse<List<Bill>> searchBills(@RequestParam String keyword) {
+
+        return ApiResponse.success("Bills retrieved successfully", billService.searchBills(keyword));
     }
 }

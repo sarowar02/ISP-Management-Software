@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
@@ -54,6 +56,17 @@ public class UserController {
             return ResponseEntity.ok(ApiResponse.fail("User not found"));
         }
         return ResponseEntity.ok(ApiResponse.success("User deleted", null));
+    }
+    @GetMapping("/search")
+    public ApiResponse<List<User>> search(@RequestParam String keyword) {
+
+        return ApiResponse.success("Users found", userService.searchUsers(keyword));
+    }
+
+    @PutMapping("/{id}/status")
+    public ApiResponse<?> updateStatus(@PathVariable Long id, @RequestParam String status) {
+        User user = userService.updateUserStatus(id, status);
+        return ApiResponse.success("User status updated", null);
     }
 
 

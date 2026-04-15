@@ -33,6 +33,10 @@ public class BillService {
 
         for (User user : users) {
 
+            if (!"ACTIVE".equalsIgnoreCase(user.getStatus())) {
+                continue;
+            }
+
             boolean exists = billRepository
                     .findByUserAndBillingMonth(user, currentMonth)
                     .isPresent();
@@ -103,5 +107,20 @@ public class BillService {
             return List.of();
         }
         return billRepository.findByUser(user);
+    }
+
+    public List<Bill> searchBills(String keyword) {
+        List<Bill> result;
+
+        if (keyword.equalsIgnoreCase("PAID") ||
+                keyword.equalsIgnoreCase("UNPAID")) {
+
+            result = billRepository.findByStatus(keyword.toUpperCase());
+
+        } else {
+            result = billRepository.findByUser_MikrotikUsernameContaining(keyword);
+        }
+
+        return result;
     }
 }

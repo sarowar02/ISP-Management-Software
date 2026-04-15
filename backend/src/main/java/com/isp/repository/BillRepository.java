@@ -12,4 +12,8 @@ public interface BillRepository extends JpaRepository<Bill, Long> {
 
     Optional<Bill> findByUserAndBillingMonth(User user, LocalDate billingMonth);
     List<Bill> findByUser(User user);
+    long countByStatus(String status);
+
+    List<Bill> findByStatus(String status);
+    List<Bill> findByUser_MikrotikUsernameContaining(String username);
 }

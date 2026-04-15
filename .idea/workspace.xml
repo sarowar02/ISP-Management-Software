@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4283937a-6359-4c91-b390-a40f68100430" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/DashboardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/DTO/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/DTO/UserRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/DTO/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/DTO/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/IspManagementSoftwareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/IspManagementSoftwareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/controller/PackageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/controller/PackageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/entity/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/entity/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/entity/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/entity/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/repository/BillRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/repository/BillRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/repository/PackageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/repository/PackageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/service/MockRouterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/MockRouterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/service/PackageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/PackageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/service/RouterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/RouterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isp/util/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/util/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isp/ispmanagement/IspManagementSoftwareApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/isp/ispmanagement/IspManagementSoftwareApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="3CDkKhj3mNO4DEoIN5CrpisorcS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4283937a-6359-4c91-b390-a40f68100430" name="Changes" comment="" />
+      <created>1775927475214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775927475214</updated>
+      <workItem from="1775927477041" duration="3281000" />
+      <workItem from="1776230359781" duration="7024000" />
+      <workItem from="1776274475561" duration="3448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

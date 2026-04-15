@@ -122,4 +122,18 @@ public class UserService {
         userRepository.deleteById(id);
         return existingUser;
     }
+
+    public List<User> searchUsers(String keyword) {
+        return userRepository.findByPhoneContainingOrMikrotikUsernameContaining(keyword, keyword);
+    }
+
+    public User updateUserStatus(Long id, String status) {
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        user.setStatus(status.toUpperCase());
+        userRepository.save(user);
+
+        return user;
+    }
 }
