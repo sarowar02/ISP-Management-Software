@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import API from "../services/api";
+import Navbar from "../components/Navbar";
 
 function Dashboard() {
   const [stats, setStats] = useState({});
@@ -12,6 +13,7 @@ function Dashboard() {
 
   return (
     <div>
+      <Navbar />
       <h2>Dashboard</h2>
 
       <div style={{ display: "flex", gap: "20px" }}>

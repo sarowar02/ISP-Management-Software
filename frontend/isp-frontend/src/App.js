@@ -1,37 +1,78 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
+import ProtectedRoute from "./components/ProtectedRoute";
+import Login from "./pages/Login";
+
 import Users from "./pages/Users";
 import Packages from "./pages/Packages";
 import Bills from "./pages/BIlls";
 import Dashboard from "./pages/Dashboard";
+import Landing from "./pages/Landing";
 
 function App() {
+
+        
+        const token = localStorage.getItem("token");
   return (
-    <BrowserRouter>
-      <div className="container">
+    <div className="landing">
+      <BrowserRouter>
+        <div className="container">
 
-        {/* Sidebar */}
-        <div className="sidebar">
-          <h3>ISP Panel</h3>
-          <Link to="/users">Users</Link>
-          <Link to="/packages">Packages</Link>
-          <Link to="/bills">Bills</Link>
-          <Link to="/dashboard">Dashboard</Link>
+
+
+          {/* Sidebar */}
+            {token && (
+              <div className="sidebar">
+                  <Link to="/">Home</Link>
+                  <Link to="/dashboard">Dashboard</Link>
+                  <Link to="/users">Users</Link>
+                  <Link to="/packages">Packages</Link>
+                  <Link to="/bills">Bills</Link>
+                  
+              </div>
+            )}
+
+          {/* Content */}
+
+          <div className="content" style={{marginLeft : token ? "260px" : "0px"}}>
+            <Routes>
+              <Route path="/" element={<Landing />} />
+              <Route path="/login" element={<Login />} />
+
+              {/* PROTECTED */}
+            <Route path="/dashboard" element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+              } />
+              
+              <Route path="/users" element={
+              <ProtectedRoute>
+                <Users />
+              </ProtectedRoute>
+              } />
+              
+              <Route path="/packages" element={
+              <ProtectedRoute>
+                <Packages />
+              </ProtectedRoute>
+              } />
+              
+              <Route path="/bills" element={
+              <ProtectedRoute>
+                <Bills />
+              </ProtectedRoute>
+              } />
+
+              
+
+            </Routes>
+          </div>
+
         </div>
-
-        {/* Content */}
-        <div className="content">
-          <Routes>
-            <Route path="/users" element={<Users />} />
-            <Route path="/packages" element={<Packages />} />
-            <Route path="/bills" element={<Bills />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-          </Routes>
-        </div>
-
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
 

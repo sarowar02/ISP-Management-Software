@@ -23,6 +23,7 @@ public class Bill {
     private double amount;
 
     private String status; // PAID / UNPAID
+    private String paymentStatus; // SUCCESS / FAILED / PENDING
 
     private LocalDate billingMonth; // e.g. 2026-04-01
 

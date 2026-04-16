@@ -8,8 +8,6 @@ import com.isp.entity.User;
 import com.isp.exception.ResourceNotFoundException;
 import com.isp.repository.UserRepository;
 import com.isp.repository.PackageRepository;
-import com.isp.util.ApiResponse;
-import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import com.isp.repository.BillRepository;

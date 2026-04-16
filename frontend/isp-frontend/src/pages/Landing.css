@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing{
+    width: 100%;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1e293b;
+  color: white;
+}
+
+.navbar a {
+  color: #cbd5f5;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar button {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background: #dc2626;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+/* Section */
+.section {
+  padding: 40px 20px;width: 100%;
+  max-width: 1200px;   /* keeps content centered */
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Packages */
+.package-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.package-card {
+  flex: 1;
+  min-width: 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Bill Form */
+
+.bill-form {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.bill-form input {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Table */
+.package-grid {
+  display: flex;
+}
+
+.bill-table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}

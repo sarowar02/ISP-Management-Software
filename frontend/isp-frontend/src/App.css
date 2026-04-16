@@ -5,6 +5,9 @@
   height: 100vh;
   overflow: hidden;
 }
+.landing{
+  width: 100%;
+}
 
 .sidebar {
   width: 220px;
@@ -35,12 +38,16 @@
 /* Content */
 .content {
   flex: 1;
-  padding: 20px;
+  padding: 0px;
   background: #f8fafc;
-  margin-left : 250px;
   height: 100vh;
   overflow-y: auto;
+  scroll-behavior: smooth;
 
+}
+.sidebar a.active {
+  color: white;
+  font-weight: bold;
 }
 
 /* Card */
@@ -90,4 +97,14 @@ input, select {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 180px;
+  }
+
+  .content {
+    margin-left: 180px;
+  }
 }

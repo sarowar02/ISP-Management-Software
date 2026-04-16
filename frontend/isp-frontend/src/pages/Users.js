@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import API from "../services/api";
+import Navbar from "../components/Navbar";
 
 function Users() {
   const [users, setUsers] = useState([]);
@@ -86,6 +87,7 @@ function Users() {
 
 return (
   <div>
+    <Navbar />
     <h2>Users</h2>
 
     <div className="card">

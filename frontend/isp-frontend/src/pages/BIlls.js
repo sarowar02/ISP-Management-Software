@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import API from "../services/api";
+import Navbar from "../components/Navbar";
 
 function Bills() {
   const [bills, setBills] = useState([]);
@@ -61,6 +62,7 @@ function Bills() {
 
   return (
     <div>
+      <Navbar />
       <h2>Bills</h2>
 
       {/* GENERATE BILL */}

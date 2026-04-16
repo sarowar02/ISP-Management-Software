@@ -123,4 +123,8 @@ public class BillService {
 
         return result;
     }
+
+    public List<Bill> getBillsByUsername(String keyword) {
+        return billRepository.findByUser_MikrotikUsernameContaining(keyword);
+    }
 }
