@@ -22,7 +22,7 @@ function Login() {
 
     <div>
       <Navbar />
-      <div style={{ padding: "0 300px", textAlign: "center" }}>
+      <div style={{ padding: "0 30px", textAlign: "center" }}>
       <h2>Admin Login</h2>
 
       <input name="username" placeholder="Username" onChange={handleChange} />

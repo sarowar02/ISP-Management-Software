@@ -35,7 +35,7 @@ function App() {
 
           {/* Content */}
 
-          <div className="content" style={{marginLeft : token ? "260px" : "0px"}}>
+          <div className="content" style={{marginLeft : token ? "221px" : "0px"}}>
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/login" element={<Login />} />

@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4283937a-6359-4c91-b390-a40f68100430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/DTO/BillRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/controller/PublicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/PublicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/util/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/isp/entity/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/entity/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/isp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/BillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/isp/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/isp-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/isp-frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/isp-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/isp-frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +85,7 @@
       <workItem from="1776274475561" duration="4328000" />
       <workItem from="1776315215280" duration="3270000" />
       <workItem from="1776319168581" duration="7193000" />
-      <workItem from="1776348423952" duration="938000" />
+      <workItem from="1776348423952" duration="2806000" />
     </task>
     <servers />
   </component>
